@@ -10,7 +10,7 @@ the WinPython directory. Type `pip install matplotlib`, press Enter, and wait fo
 
 3) Type `pip install opencv-contrib-python`, press Enter, and wait for the opencv library to finish installing.
 
-**Running postTracking.py:**
+**Running postTracking.py on Windows:**
 
 *GUI method*
 
@@ -31,7 +31,7 @@ the WinPython directory. Type `pip install matplotlib`, press Enter, and wait fo
 3) Type `pip install opencv-contrib-python`, press Enter, and wait for the opencv library to finish installing.
 4) Type `which python` and press Enter to confirm that Python 3 is invoked by the 'python' keyword.
 
-**Running postTracking.py:**
+**Running postTracking.py on macOS:**
 
 1) Download postTracking.py.
 2) Using Terminal, navigate to the directory containing postTracking.py
