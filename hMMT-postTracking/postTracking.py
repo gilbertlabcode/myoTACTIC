@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul 10 16:20:51 2018
 postTracking
-@author: Haben
+@author: Haben Y. Abraha
 """
 from tkinter import filedialog
 import cv2
@@ -190,8 +189,8 @@ for i in post_location:
 #Assuming video starts with relaxed tissue, post will be farthest from initial
 #location during a contraction. If post contracts to right,
 #the difference between rightmost and the initial post location will be much
-#greater than the difference between leftmost and the intial post location 
-#. And vice-versa if post contracts to the left.
+#greater than the difference between leftmost and the intial post location. 
+#And vice-versa if post contracts to the left.
    
 if rightmost - post_location[0] > post_location[0] - leftmost:
     contracts_to_right = True
