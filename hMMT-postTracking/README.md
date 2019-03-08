@@ -12,16 +12,18 @@ the WinPython directory. Type `pip install matplotlib`, press Enter, and wait fo
 
 **Running postTracking.py on Windows:**
 
-*GUI method*
+*GUI Application method (simpler)*
 
 1) Download postTracking.py. 
-2) In the WinPython directory, click File > Open..., then select postTracking.py and click Open.
-3) In the toolbar click Run > Run, or press F5. The script should begin running.
+2) In the WinPython directory, open spyder.exe. 
+3) Once Spyder opens, click File > Open..., then select postTracking.py and click Open.
+4) In the toolbar click Run > Run, or press F5. The script should begin running.
 
-*Command prompt method*
+*Windows Powershell/Command Prompt method*
 
 1) Download postTracking.py. 
 2) Open the WinPython Command Prompt or Windows Powershell application, and navigate to the directory containing postTracking.py. 
+    Note: Google Command Prompt/Windows Powershell commands if you don't know how to navigate through directories.
 3) Type `python postTracking.py` and press Enter. The script should begin running. 
 
 **Python set-up instructions for macOS:**
@@ -35,6 +37,7 @@ the WinPython directory. Type `pip install matplotlib`, press Enter, and wait fo
 
 1) Download postTracking.py.
 2) Using Terminal, navigate to the directory containing postTracking.py
+    Note: Google Terminal commands if you don't know how to navigate through directories.
 3) Type `python postTracking.py` and press Enter. The script should begin running. If `which python` pointed to Python 2, type 
 `python3 postTracking.py` and press Enter instead.
 
