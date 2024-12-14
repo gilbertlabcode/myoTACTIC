@@ -113,7 +113,11 @@ cv2.moveWindow("Frame", 0,0)
 cv2.waitKey(0)
 cv2.destroyWindow("Frame")
 
-tracker = cv2.TrackerKCF_create()
+#Note: For compatibility with Python 3.7, use KCF Tracker as shown below:
+#tracker = cv2.TrackerKCF_create()
+
+#For Python versions 3.8 and newer, it is recommended to use the CSRT Tracker for improved performance:
+tracker = cv2.TrackerCSRT_create()
 
 #Initialize tracker with first frame
 tracker.init(first_frame_gray, roi)
