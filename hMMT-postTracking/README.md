@@ -1,5 +1,5 @@
-Code requirements: Python 3, opencv-contrib library, the matplotlib library.
-Note: Select the appropriate cv2 tracker based on the Python version used to run the script as indicated in the code.
+**Code requirements:** Python 3, opencv-contrib library, the matplotlib library.
+**Note:** Select the appropriate cv2 tracker based on the Python version used to run the script as indicated in the code.
 
 **Python set-up instructions for Windows:**
 
