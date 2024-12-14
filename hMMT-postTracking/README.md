@@ -1,4 +1,5 @@
-Python code for tracking myoTACTIC PDMS posts during hMMT contraction is found here. Code requirements: Python 3, opencv-contrib library, the matplotlib library.
+Code requirements: Python 3, opencv-contrib library, the matplotlib library.
+Note: Select the appropriate cv2 tracker based on the Python version used to run the script as indicated in the code.
 
 **Python set-up instructions for Windows:**
 
@@ -40,4 +41,3 @@ the WinPython directory. Type `pip install matplotlib`, press Enter, and wait fo
     Note: Google Terminal commands if you don't know how to navigate through directories.
 3) Type `python postTracking.py` and press Enter. The script should begin running. If `which python` pointed to Python 2, type 
 `python3 postTracking.py` and press Enter instead.
-
